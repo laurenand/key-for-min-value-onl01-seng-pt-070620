@@ -3,5 +3,5 @@
 #hash = {:blake => 500, :ashley => 2, :adam => 1}
 
 def key_for_min_value(name_hash)
-  name_hash
+  name_hash.find{|key| if key<=1}
 end
