@@ -3,8 +3,5 @@
 #hash = {:blake => 500, :ashley => 2, :adam => 1}
 require 'pry'
 def key_for_min_value(name_hash)
-  name_hash.find do |key|
-    puts key if key==1
-  end
-  binding.pry
+  name_hash.key()
 end
