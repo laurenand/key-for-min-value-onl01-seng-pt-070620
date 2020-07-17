@@ -5,4 +5,5 @@
 def key_for_min_value(name_hash)
   name_hash.find do |key|
     puts key if key==1
+  end
 end
